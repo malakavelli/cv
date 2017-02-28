@@ -1,6 +1,7 @@
 <! DOCTYPE html >
 <html>
       <head>
+	  
 	      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 	        <meta charset="utf-8">
 			 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
@@ -8,7 +9,8 @@
 	        <title> CV MAMADOU LAMINE KA</title>
 	 </head>
       <body background-color="Bleu">
-	  <div id="cv" class="container">
+	      <button style="font-size: 50%;" onclick="afficher('#cv');">cacher</button>
+	      <div id="cv" class="container">
             <div >
                 <div class ="row"> 
                   <div class ="col-xs-9">
@@ -19,13 +21,15 @@
 					   mamadou-lamine.ka@etu.univ-lyon1.fr<br/>
 					   Permis B </p>  
 			        </div>
-					   <div id="identifiant" class ="col-xs-3">
+					   <button style="font-size: 50%;" onclick="afficher('#identifiant');">cacher</button>
+		      <div id="identifiant" class ="col-xs-3">
 					   <img width="200px" src="lamine.jpg" alt="photo"/><br/>
 					   </div>
 			   </div>
 			   <div class = "section row">
 			      <h2>Formation</h2>
-				        <div id="formation" class ="col-xs-2">
+				        <button style="font-size: 50%;" onclick="afficher('#formation');">cacher</button>
+				   <div id="formation" class ="col-xs-2">
 					      <p><strong>2016-Auj    :</strong></p>
 						  </div>
 						  <div class = "col-xs-10">
@@ -33,38 +37,47 @@
 						                 spécialité du parcours Compétence Complémentaire en Informatique.<br/>
                                          **** Université Claude Bernard Lyon 1.</p><br/>
 						</div>
-						<div id="m2cci" class ="col-xs-2">
+						<button style="font-size: 50%;" onclick="afficher('#m2cci');">cacher</button>
+				   <div id="m2cci" class ="col-xs-2">
 					      <p><strong>2013-2016    :</strong></p>
 						</div>
-						 <div id="gbm" class = "col-xs-10">				    
+						 <button style="font-size: 50%;" onclick="afficher('#gbm');">cacher</button>
+				   <div id="gbm" class = "col-xs-10">				    
 					      <p><strong> |  Diplôme dIngenierie Biomedicale</strong><br/> 
 						                 Genie Biomedical au sens large et Affaires Reglementaires<br/>
                                          **** Polytech Lyon - Université Claude Bernard Lyon 1</p>
 						</div>
-						<div id="annee1" class ="col-xs-2">
+						<button style="font-size: 50%;" onclick="afficher('#annee1');">cacher</button>
+				   <div id="annee1" class ="col-xs-2">
 					      <p><strong>2011-2013    :</strong></p>
 						  </div>
-						  <div id="licence" class ="col-xs-10">
+						  <button style="font-size: 50%;" onclick="afficher('#licence');">cacher</button>
+				   <div id="licence" class ="col-xs-10">
 						      <p><strong> |  Licence en genie electrique </strong><br/>
 						                 Option Electronique Electrotechnique Automatique <br/>
 										 *** Université Claude Bernard Lyon 1</p><br/>
 						  </div>
-						  <div id="annee2" class ="col-xs-2">
+						  <button style="font-size: 50%;" onclick="afficher('#annee2');">cacher</button>
+				   <div id="annee2" class ="col-xs-2">
 					      <p><strong>2009-2011    :</strong></p>
 						</div>
-						 <div id="bac" class = "col-xs-10">				    
+						 <button style="font-size: 50%;" onclick="afficher('#bac');">cacher</button>
+				   <div id="bac" class = "col-xs-10">				    
 					      <p><strong> |  Baccalauréat Scientifique avec la Mention Assez Bien specialité SVT  </strong>
 						                 ***** Institution Notre Dame de Dakar</p>
 						</div>
 					     
 			   </div>
-			   <div id="experiences" class = "row">
+			   <button style="font-size: 50%;" onclick="afficher('#experiences');">cacher</button>
+	      <div id="experiences" class = "row">
 			      <h2>Expériences professionneles</h2>
-				       <div id="mrs" class ="col-lg-2">
+				       <button style="font-size: 50%;" onclick="afficher('#mrs');">cacher</button>
+		      <div id="mrs" class ="col-lg-2">
 					      <p><strong>2016 :<span class ="duree">5 Mois</span><br/>
 						             </strong>Monitoring Radiology Systems, Dakar, Senegal</p>
 									 </div>
-									 <div id="stage1" class = "col-lg-10">
+									 <button style="font-size: 50%;" onclick="afficher('#stage1');">cacher</button>
+		      <div id="stage1" class = "col-lg-10">
 									  <p><strong>Stage de fin d’études ingénieur en support technique sur les equipements d'imagerie</strong><br/>
 						             « Etude en amont des installations des équipements d’imagerie
 									   Installation des équipements d’imagerie
@@ -73,10 +86,12 @@
 									   Administration du serveur informatique	
 									   Assistance téléphonique</strong></p>
 									 </div>
-							<div id="amc" class ="col-xs-2"> 
+							<button style="font-size: 50%;" onclick="afficher('#amc');">cacher</button>
+	<div id="amc" class ="col-xs-2"> 
 					             <p><strong>2014 : <span class ="duree">5 Mois</span><br/>
 						             Academic Medical Center, Amsterdam, Pays-Bas </strong></p>
 									 </div>
+	<button style="font-size: 50%;" onclick="afficher('#automatic');">cacher</button>
 									 <div id="automatic" class ="col-xs-10">
 									 <p><strong> Quantification Automatique de la Thrombose Cerebrale </strong><br/>
 						              Experimentation et Etudes sur l'IRM PHILIPS 7T
@@ -90,10 +105,12 @@
                                        </ul>
 									       </p>
 									 </div>
+						<button style="font-size: 50%;" onclick="afficher('#chan');">cacher</button>
 									 <div id="chan" class ="col-xs-2"> 
 					             <p><strong>2013 : <span class ="duree">2 Mois</span><br/>
 						             Centre Hospitalier de l'Agglomération de Nevers </strong></p>
 									 </div>
+						<button style="font-size: 50%;" onclick="afficher('#technicien');">cacher</button>
 									 <div id="technicien" class ="col-xs-10">
 									 <p><strong> Stagiaire Technicien Biomédical </strong><br/>
 						              Inventaire des piéces détachées, accessoires et consommables avec la GMAO
@@ -107,11 +124,12 @@
 									  
 									       
 									 </div>
-									
-									<div id="annee3"class="col-xs-2"
+									<button style="font-size: 50%;" onclick="afficher('#annee3');">cacher</button>
+									<div id="annee3" class="col-xs-2"
 					                  <p><strong>2013 : <span class ="duree">6 Mois</span></br>
 						                  Campus Creation</strong> </p>
 									 </div>
+									<button style="font-size: 50%;" onclick="afficher('#campus');">cacher</button>
 									 <div id="campus" class="col-xs-10">
 									 <p><strong>Concours de création d'une entreprise fictive</strong>
 						             Management de projet<ul>
@@ -123,51 +141,63 @@
 									 </div>
 					    </div>
 			   </div>
+<button style="font-size: 50%;" onclick="afficher('#autres');">cacher</button>
 			   <div id="autres"class = "row" >
 			      <h2>Autres Compétences</h2>
-				  
+				  <button style="font-size: 50%;" onclick="afficher('#anglais');">cacher</button>
 				        <div id="anglais" class ="col-lg-2">
 					             <p><strong>Anglais</strong>:</p>
 						</div>
+				   <button style="font-size: 50%;" onclick="afficher('#bili');">cacher</button>
 						      <div id="bili" class="col-LG-10">
 						      <p><strong>Bilingue</strong></p>
 						      </div>
+				   	<button style="font-size: 50%;" onclick="afficher('#francais');">cacher</button>
 					    <div id="francais" class ="col-xs-2">
 					            <p><strong>Français</strong>:</p>
 						</div>
+				   		<button style="font-size: 50%;" onclick="afficher('#bilingue');">cacher</button>
 						       <div id="bilingue" class="col-xs-10">
 						        <p><em><strong>Bilingue</strong><em>:</p>
 						        </div>
+								<button style="font-size: 50%;" onclick="afficher('#espagnol');">cacher</button>
 						<div id="espagnol" class ="col-xs-2">
 					           <p><strong>Espagnol</strong>:</p>
 						</div>
+							<button style="font-size: 50%;" onclick="afficher('#bon');">cacher</button>
 						      <div id="bon" class="col-xs-10">
 						       <p><strong>Bon niveau</strong>:</p>
 						       </div>
 			   </div>
 			   <div class = "section rows" >
 			      <h2>Informatique</h2>
+				   <button style="font-size: 50%;" onclick="afficher('#sys');">cacher</button>
 				  <div id="sys" class="row">
 				        <div class ="col-xs-2">
 					             <p><strong>Systèmes OS :</strong>:</p>
 						</div>
+					  	<button style="font-size: 50%;" onclick="afficher('#os');">cacher</button>
 						      <div id="os" class="col-xs-10">
 						      <p><strong>Windows Seven/8/10/2012/Server, Linux/Unix et MAC-OS</strong></p>
 						      </div>
 							  </div>
+				   		<button style="font-size: 50%;" onclick="afficher('#reseaux');">cacher</button>
 							  <div id="reseaux" class="row">
 					    <div class ="col-xs-2">
 					            <p><strong>Réseaux :</strong></p>
 						</div>
+							<button style="font-size: 50%;" onclick="afficher('#sirr');">cacher</button>
 						       <div id="sirr" class="col-xs-9">
 						        <p><em>Routing, switching, LANVLAN, TCP/IP, UDP, HTTP<em>:</p>
 						        </div>
 								 </div>
+						<button style="font-size: 50%;" onclick="afficher('#indus');">cacher</button>
 						<div id="indus" class="row">		
 						   <div class ="col-xs-2">
 					           <p><strong>Industrie   :</strong>:</p>
 						</div>
-						      <div id="industrie" class="col-xs-9">
+						      <button style="font-size: 50%;" onclick="afficher('#industrie');">cacher</button>
+							<div id="industrie" class="col-xs-9">
 						       <p><em>IHM, Maintenance,Supervision Régulation, Modélisation, Capteurs et instrumentation,
 						                                               Les busCAN. IHM, Profinet, profibus, Asi, Vijeo Designer, etc. </em></p>
 						       </div>
@@ -176,41 +206,50 @@
 							       <div class="col-xs-2">
 					                          <p><strong>Dévelop :</strong></p>
 						                        </div>
+								 			<button style="font-size: 50%;" onclick="afficher('#develop');">cacher</button>
 						                                           <div id="develop" class ="col-xs-10">
 						                                              <p><strong>  C, .Net, Visual Studio, Visual Basic, JAVA, C#, CSS, HTML5, PHP, Scripting Shell/Bash.</strong></p>
 						                                           </div>
 			                        </div>
                                     <div class="row">   
-						                  <div id="db" class="col-xs-2">
+						                 <button style="font-size: 50%;" onclick="afficher('#db');">cacher</button>
+					    			<div id="db" class="col-xs-2">
 						                      <p><strong>database  :<strong></p>
 						                  </div>
-										                            <div id="database" class ="col-xs-10">
+									<button style="font-size: 50%;" onclick="afficher('#database');">cacher</button>	                           
+									<div id="database" class ="col-xs-10">
 																	<p><strong>Mysql, ORACL, ACCESS,XLS </strong></p>
 																	</div>
 									</div>
 																	
 			   </div>
+				<button style="font-size: 50%;" onclick="afficher('#ci');">cacher</button>
 			   <div id="ci" class = "section row">
 			      <h2>Centre d'interet</h2>
 				  <div class = " row">
+					  <button style="font-size: 50%;" onclick="afficher('#bball');">cacher</button>
 				        <div id="bball" class ="col-xs-2">
 					      <p> Basketball  :</p>
 						  </div>
+					  <button style="font-size: 50%;" onclick="afficher('#as');">cacher</button>
 						  <div id="as" class ="col-xs-10">
 						  <p> (association sportive de l’université)</p>
 						  </div>
-						  
+						  <button style="font-size: 50%;" onclick="afficher('#tech');">cacher</button>
 				         <div id="tech" class ="col-xs-2">
 					      <p>Technologies  :</p>
 						  </div>
+					  <button style="font-size: 50%;" onclick="afficher('#inf');">cacher</button>
 						  <div id="inf" class ="col-xs-10">
 						  <p> Informatique ,Innovation</p>
 						  </div>
 						 </div>
 						  <div class = " row">
+							 <button style="font-size: 50%;" onclick="afficher('#wayass');">cacher</button>
 						  <div id="wayass" class ="col-xs-2">
 					      <p> Voyages  :</p>
 						  </div>
+							  <button style="font-size: 50%;" onclick="afficher('#yea');">cacher</button>
 						  <div id="yea" class ="col-xs-10">
 						  <p> Senegal, France, Pays-Bas, Luxembourg, Belgique, Suisse, Espagne, Portugal </p>
 						  </div>
